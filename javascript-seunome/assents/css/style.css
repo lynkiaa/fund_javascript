@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/* Folha de estilo para os exercicios de JavaScript */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: black; */
+}
+
+body {
+
+    /* background-image: linear-gradient(to bottom,#00bad3 50%, #00728a 100%);
+    background-repeat: repeat; */
+    background-image: linear-gradient(to bottom, #00bad3 50%, #00728a 100%);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    color: whitesmoke;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    justify-content: flex-start;
+}
+
+header {
+    background-color: #00728a;
+    height: 135px;
+    border-radius: 15px;
+    /* border-color: #00bad3; */
+    border: solid #0096af 3px;
+    padding: 7px;
+}
+
+nav {
+    background-color: #00728a;
+    height: 35px;
+    border-radius: 15px;
+    /* border-color: #00bad3; */
+    border: solid #0096af 3px;
+    padding: 7px;
+}
+
+main {
+    background-color: #0096af;
+    /* height: auto; */
+    height: 100%;
+    border-radius: 15px;
+    /* border-color: #00bad3; */
+    border: solid #0096af 3px;
+    padding: 7px;
+}
+
+footer {
+    background-color: #00728a;
+    height: 85px;
+    border-radius: 15px;
+    /* border-color: #00bad3; */
+    border: solid #0096af 3px;
+    padding: 7px;
+}
