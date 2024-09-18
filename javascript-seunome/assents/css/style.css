@@ -1,6 +1,16 @@
 @charset "utf-8";
 
 /* Folha de estilo para os exercicios de JavaScript */
+/* 
+paleta de cores deste site:
+#2f4858 //footer
+#265667 
+#136473
+#00737a //nav
+#00817d
+#008f7a //petrolio
+#007ec3 //azul escuro
+*/
 
 * {
     margin: 0;
@@ -43,6 +53,15 @@ nav {
     padding: 7px;
 }
 
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+}
 main {
     background-color: #0096af;
     /* height: auto; */
