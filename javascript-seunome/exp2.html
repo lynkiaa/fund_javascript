@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <h1>Estruturas de controle: loops e condicionais.</h1>
+        <h1>Estruturas de controle:Variáveis, tipos de dados.</h1>
     </header>
 
     <nav>
@@ -62,10 +62,16 @@
     </footer>
     <!-- aqui é o final do footer -->
     <script>
+        /*Identificadores
+        camelCase;
+        $in_front;
+        _in_front;
+        não pode usar espaços, palavras reservadas
+        */
+
         //Nesta primeira mensagem vamos exibir uma mensagem
         //var, let, const -> tipos de variavel!  
         window.alert('Vamos aprender a Calcular!')
-
         // vamos colocar uma valor de 0 até 9
         let A = prompt('Digite uma numero de 0 até 9:')
         /* vamos colocar uma valor de 0 até 9, não pode ser maior 
@@ -73,16 +79,20 @@
         */
         let B = prompt('Digite outro numero de 0 até 9:')
         // O que é isso? 
-        let C = parseInt(A) + parseInt(B) //parseFloat(n); 
+        let C = parseInt(A) + parseInt(B) //parseFloat(n); parseInt; Number: String; n.toString();
         // O que isso ?
-        alert('O resultado desta conta é ' + C)
+        alert('O resultado desta conta é ' + C) //alert('O resultado desta conta é '${C})
+        
         window.confirm('Podemos continuar ?')
-        /*Identificadores
-        camelCase;
-        $in_front;
-        _in_front;
-        não pode usar espaços, palavras reservadas
-        */
+
+// diferença entre aspas simples e 
+        // document.write('O resultado desta conta é ${C}')
+        // document.write(`O resultado desta conta é ${C}`)
+
+
+
+
+
     </script>
     <!-- aqui é o final do body -->
 </body>
