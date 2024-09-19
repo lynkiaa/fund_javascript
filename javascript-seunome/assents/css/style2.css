@@ -3,11 +3,12 @@
 /* Folha de estilo para os exercicios de JavaScript */
 /* 
 paleta de cores deste site:
+#f9f871 //titulo claro
 #2f4858 //footer
-#265667 
-#136473
+#265667 // fundo escuro
+#136473 //fundo escuro medio
 #00737a //nav
-#00817d
+#00817d //fundo escuro claro 
 #008f7a //petrolio
 #007ec3 //azul escuro
 */
@@ -16,7 +17,6 @@ paleta de cores deste site:
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 body {
@@ -27,7 +27,6 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
-    
     color: whitesmoke;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -37,53 +36,72 @@ body {
 }
 
 header {
+
     /* background-color: #00728a; */
-    height: 135px;
-    border-radius: 15px;
     /* border-color: #00bad3; */
     /* border: solid #0096af 3px; */
     padding: 7px;
+    height: 135px;
+    border-radius: 15px;
 }
 
-h1{
+h1 {
+
     font-size: 30px;
+    text-align: right;
+    color: #f9f871;
 }
 
 nav {
+
     /* background-color: #00728a; */
+    /* border-color: #00bad3; */
+    /* border: solid #0096af 3px; */
+    padding: 7px;
     height: 35px;
     border-radius: 15px;
-    /* border-color: #00bad3; */
-    /* border: solid #0096af 3px; */
-    padding: 7px;
+    text-align: center;
 }
 
-a{
+a {
+
     text-decoration: none;
     color: whitesmoke;
 }
 
-a:hover{
+a:hover {
+
     text-decoration: none;
     color: whitesmoke;
 }
+
 main {
+
     /* background-color: #0096af; */
     /* height: auto; */
-    height: 100%;
-    border-radius: 15px;
     /* border-color: #00bad3; */
     /* border: solid #0096af 3px; */
     padding: 7px;
+    height: 100%;
+    border-radius: 15px;
+    text-align: justify;
+}
+
+p{
+    padding: 3px;
+    margin-top: 17px;
 }
 
 footer {
-    /* background-color: #00728a; */
+
+    padding: 7px;
     height: 85px;
     border-radius: 15px;
+    text-align: center;
     /* border-color: #00bad3; */
     /* border: solid #0096af 3px; */
-    padding: 7px;
+    background-color: #2f4858;
+
 }
 
 /* id */

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula_11</title>
+    <title>Aula_12</title>
     <!--Aula 11: Introdução ao JavaScript: variáveis, tipos de dados e operadores.
     https://paletadecores.com/paleta/00bad3/00a8c1/0096af/00849c/00728a/
     https://mycolor.space/?hex=%2300BAD3&sub=1
@@ -15,18 +15,21 @@
 
 <body>
     <header>
-        <h1>Introdução ao JavaScript: variáveis, tipos de dados e operadores.</h1>
+        <h1>Estruturas de controle: loops e condicionais.</h1>
     </header>
 
     <nav>
-        <a href="#">home</a> | <a href="#">client</a> | <a href="#">network</a> | <a href="#">about</a>
+        <a href="exp.html">Aula11</a> | <a href="exp2.html">Aula12</a> | <a href="exp3.html">Aula13</a> | <a
+            href="exp4.html">Aula14</a>
     </nav>
 
     <main>
         <img src="" alt="" srcset="">
 
+        <h2>Está pagina é reservada para visualização de JavaScript.</h2>
+
         <p>
-            Está pagina é reservada para visualização de JavaScript Lorem ipsum dolor sit amet consectetur adipisicing
+            Lorem ipsum dolor sit amet consectetur adipisicing
             elit.
             Voluptate quia quibusdam debitis iure modi obcaecati quas dicta vitae nam. Earum eaque pariatur ipsum
             officia
@@ -59,14 +62,27 @@
     </footer>
     <!-- aqui é o final do footer -->
     <script>
-        // window.alert('Bem Vindo ao site!😘')
-        // // window.prompt('uma pergunta qualquer...')
-        // let usuario = prompt('Qual o seu usuario?')
-        // let nome = prompt('Qual o seu nome Real')
-        // let perguntas = prompt('Questions')
-        // let idade = prompt('Qual a sua idade')
-        // alert('Olá,' + usuario + 'seu nome é, ' + nome + 'sua idade é' + idade + 'sua questão é: ' + perguntas + '.')
+        //Nesta primeira mensagem vamos exibir uma mensagem
+        //var, let, const -> tipos de variavel!  
+        window.alert('Vamos aprender a Calcular!')
 
+        // vamos colocar uma valor de 0 até 9
+        let A = prompt('Digite uma numero de 0 até 9:')
+        /* vamos colocar uma valor de 0 até 9, não pode ser maior 
+        que esse valores.
+        */
+        let B = prompt('Digite outro numero de 0 até 9:')
+        // O que é isso? 
+        let C = parseInt(A) + parseInt(B) //parseFloat(n); 
+        // O que isso ?
+        alert('O resultado desta conta é ' + C)
+        window.confirm('Podemos continuar ?')
+        /*Identificadores
+        camelCase;
+        $in_front;
+        _in_front;
+        não pode usar espaços, palavras reservadas
+        */
     </script>
     <!-- aqui é o final do body -->
 </body>
