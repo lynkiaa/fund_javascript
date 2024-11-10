@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/* --color1: #6a0dad; */
+/* --color2: #F7F7F7; */
+/* --color3: #d3d3d3; */
+/* --color4: #ffd700; */
+/* --color2: #f2fedc; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(#6a0dad, #f2fedc 100%);
+  background-position: bottom;
+  background-attachment: fixed;
+  background-repeat: repeat;
+
+  color: #d3d3d3;
+  padding: 0.3em;
+  margin: 0.5rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
