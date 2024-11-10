@@ -31,6 +31,7 @@
       <article>
         <img
           src="/exercicioDOM/dom-tree.png"
+          id="img"
           alt="Exercicio de DOM"
           width="25%"
         />
@@ -51,5 +52,15 @@
       <p>&copysr; Exercicio com DOM - 2024</p>
     </footer>
   </body>
-  <script src="/exercicioDOM/script.js"></script>
+  <script>
+    var img = window.document.getElementById('img');
+    img.addEventListener("clicar", clicar);
+    img.addEventListener("mouseenter", entrar);
+    img.addEventListener("mouseout", sair);
+
+    function clicar() {
+      alert("Clicou no imagem");
+      /*img.innerHTML = <img src="/exercicioDOM/imagememe.gif">*/
+    }
+  </script>
 </html>
