@@ -32,7 +32,7 @@ h1 {
 }
 
 canvas {
-    background-color: rgba(0, 0, 0, 0.903);
+    background-color: #000000e6;
     align-items: center;
     border: 5px solid #8B0000;
 }
