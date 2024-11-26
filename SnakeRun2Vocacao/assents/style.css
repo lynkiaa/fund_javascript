@@ -8,15 +8,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: cursive;
 
 }
 
 
-body,
+body {
+    background-image: url(nezuko.gif);
+    background-size: cover;
+}
 main {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #696969a1;
     display: flex;
     flex-direction: column;
     min-width: 100vh;
@@ -32,9 +34,10 @@ h1 {
 }
 
 canvas {
-    background-color: #000000e6;
+    background-color: #dd8ba691;
     align-items: center;
-    border: 5px solid #8B0000;
+    border: 5px solid #ffffff;
+    
 }
 
 .score {
@@ -90,10 +93,10 @@ canvas {
 }
 
 footer {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #696969a1;
-    color: #f5efea;
-    min-width: 100vh;
+    font-family: cursive;
+    background-color: #fdcbdea1;
+    color: #000000;
+    min-width: 50vh;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -102,6 +105,5 @@ footer {
 
 }
 
-/*
-*
-*/
+
+/* O CSS está habilitando as cores, tamanhos, espaços e bordas dos itens na tela, */

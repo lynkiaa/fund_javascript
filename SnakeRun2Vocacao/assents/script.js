@@ -19,7 +19,7 @@ const size = 30
 
 //criando a Snake por array, sendo preenchido e movimentado na tela
 const initialPosition = { x: 270, y: 240 }
-let snake = [initialPosition]
+let snake =  [initialPosition]
 
 //Forma Anterior de criar a Snake Run
 /*const snake = [
@@ -84,11 +84,11 @@ const drawFood = () => {
 
 //A const desenhSnake recebe os elementos e cria um começo da Snake
 const drawSnake = () => {
-  ctx.fillStyle = "#66CDAA"
+  ctx.fillStyle = "#f5efea"
 
   snake.forEach((position, index) => {
     if (index == snake.length - 1) {
-      ctx.fillStyle = "#FFA500"
+      ctx.fillStyle = "#f5efea"
     }
 
     ctx.fillRect(position.x, position.y, size, size)
@@ -215,7 +215,7 @@ const gameLoop = () => {
 
   loopId = setTimeout(() => {
     gameLoop()
-  }, 300)
+  }, 200)
 }
 
 
@@ -251,3 +251,5 @@ buttonPlay.addEventListener("click", () => {
 
   snake = [initialPosition]
 })
+
+// utilizado para que o jogo funione da maneira correta, e que siga os comandos desejados de acordo com cada código.
